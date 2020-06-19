@@ -57,6 +57,8 @@ public class SeliniumUdemy {
             driver.get("https://www.rahulshettyacademy.com/AutomationPractice/");
 
             driver.findElement(By.xpath("//input[@class='radioButton']")).click();
+            driver.findElement(By.xpath("//input[@id='autocomplete']")).sendKeys("engrjunaid@live.com");
+            driver.close();
 
         }
 
